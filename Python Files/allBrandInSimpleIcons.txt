@@ -1895,7 +1895,6 @@ Sketch
 Sketchfab
 SketchUp
 Skillshare
-ŠKODA
 Sky
 Skynet
 Skypack
@@ -2381,7 +2380,6 @@ YouTube Studio
 YouTube TV
 Yubico
 Z-Wave
-Żabka
 Zalando
 Zalo
 Zapier
