@@ -1,0 +1,2 @@
+<table><tr><th>Brand</th><th>Squared Bold Icon</th><th>Markdown </th></tr><tr><td>3M</td><td><img src='https://img.shields.io/badge/3m-FF0000.svg?style=for-the-badge&logo=3m&logoColor=white' /></td><td>![3M](https://img.shields.io/badge/3m-FF0000.svg?style=[style_name]&logo=3m&logoColor=white)</td></tr>
+</table></details>

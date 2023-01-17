@@ -1,19 +1,20 @@
 from simpleicons.all import icons
 import os
 
-dosya = open("brandAndIcons.md", "w")
-
 if os.path.exists("allBrandInSimpleIcons.txt"):
     with open("allBrandInSimpleIcons.txt", "r") as f:
-        firstLetter = f.readline().strip()
+        firstLetter = f.readline().strip()[0]
+        dosya = open(f"brandsdot.md", "w")
         dosya.write(
-            f"<details> <summary>{firstLetter}</summary><table><tr><th>Brand</th><th>Squared Bold Icon</th><th>Markdown </th></tr>")
+            f"<table><tr><th>Brand</th><th>Squared Bold Icon</th><th>Markdown </th></tr>")
         for line in f:
             if firstLetter.upper() != line[0].upper():
                 dosya.write("</table></details>")
+                dosya.close()
+                dosya = open(f"brands{line[0].upper()}.md", "w")
                 firstLetter = line[0]
                 dosya.write(
-                    f"<details> <summary>{firstLetter}</summary><table><tr><th>Brand</th><th>Squared Bold Icon</th><th>Markdown </th></tr>")
+                    f"<table><tr><th>Brand</th><th>Squared Bold Icon</th><th>Markdown </th></tr>")
             try:
                 icon = icons.get(line.strip())
                 dosya.write("<tr>"
@@ -25,6 +26,6 @@ if os.path.exists("allBrandInSimpleIcons.txt"):
                             )
             except:
                 pass
-dosya.write("</table></details>")
+dosya.write("</table>")
 
 dosya.close()

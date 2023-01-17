@@ -1,0 +1,2 @@
+<table><tr><th>Brand</th><th>Squared Bold Icon</th><th>Markdown </th></tr><tr><td>.NET</td><td><img src='https://img.shields.io/badge/dotnet-512BD4.svg?style=for-the-badge&logo=dotnet&logoColor=white' /></td><td>![.NET](https://img.shields.io/badge/dotnet-512BD4.svg?style=[style_name]&logo=dotnet&logoColor=white)</td></tr>
+</table></details>

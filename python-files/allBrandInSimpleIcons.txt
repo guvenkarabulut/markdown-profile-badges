@@ -1,6 +1,5 @@
 .ENV
 .NET
-/e/
 1001Tracklists
 1Password
 3M
