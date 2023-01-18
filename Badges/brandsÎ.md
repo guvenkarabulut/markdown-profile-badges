@@ -1,1 +1,1 @@
-<table><tr><th>Brand</th><th>Squared Bold Icon</th><th>Markdown </th></tr></table></details>
+<table><tr><th>Brand</th><th>Flat Icon</th><th>Plastic Icon/th><th>Squared Bold Icon</th><th>Squared Icon</th><th>Markdown </th></tr></table></details>
