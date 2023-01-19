@@ -1,5 +1,6 @@
 .ENV
 .NET
+/e/
 1001Tracklists
 1Password
 3M
@@ -74,6 +75,7 @@ Airtable
 Ajv
 Alacritty
 Albert Heijn
+Alchemy
 Aldi Nord
 Aldi Süd
 Alfa Romeo
@@ -130,6 +132,7 @@ Angular Universal
 AngularJS
 AniList
 Ansible
+Answer
 Ansys
 Ant Design
 Anta
@@ -295,6 +298,7 @@ Blueprint
 Bluetooth
 BMC Software
 BMW
+BoardGameGeek
 Boehringer Ingelheim
 Boeing
 Bookalope
@@ -334,6 +338,7 @@ Burger King
 Burton
 Buy Me A Coffee
 BuzzFeed
+BVG
 Byju's
 byte
 ByteDance
@@ -365,6 +370,7 @@ CentOS
 Ceph
 Cesium
 Chai
+Chainguard
 Chainlink
 Chakra UI
 Chart.js
@@ -483,6 +489,7 @@ CrateDB
 Crayon
 Create React App
 Creative Commons
+Creative Technology
 Credly
 Crehana
 Critical Role
@@ -495,7 +502,9 @@ Crystal
 CSS Modules
 CSS Wizardry
 CSS3
+CTS
 Cucumber
+Cultura
 curl
 CurseForge
 Cycling '74
@@ -646,6 +655,7 @@ Engadget
 Enpass
 EnterpriseDB
 Envato
+Envoy Proxy
 EPEL
 Epic Games
 Epson
@@ -737,6 +747,7 @@ Flood
 Fluent Bit
 Fluentd
 Flutter
+Fluxus
 Flyway
 FMOD
 Fnac
@@ -1337,6 +1348,7 @@ Momenteo
 Monero
 MoneyGram
 MongoDB
+Monica
 monkey tie
 MonoGames
 Monoprix
@@ -1894,6 +1906,7 @@ Sketch
 Sketchfab
 SketchUp
 Skillshare
+ŠKODA
 Sky
 Skynet
 Skypack
@@ -2087,6 +2100,7 @@ Testin
 Testing Library
 Tether
 Textpattern
+TGA
 The Algorithms
 The Conversation
 The Irish Times
@@ -2118,6 +2132,7 @@ Tinder
 TinyLetter
 Tistory
 tmux
+TNT
 Todoist
 Toggl
 Tokyo Metro
@@ -2277,6 +2292,7 @@ Warp
 wasmCloud
 Wasmer
 Wattpad
+Wayland
 Waze
 Wear OS
 Weasyl
@@ -2379,6 +2395,7 @@ YouTube Studio
 YouTube TV
 Yubico
 Z-Wave
+Żabka
 Zalando
 Zalo
 Zapier

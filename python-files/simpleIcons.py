@@ -9,9 +9,14 @@ if os.path.exists("allBrandInSimpleIcons.txt"):
             f"<table><tr><th>Brand</th><th>Flat Icon</th><th>Plastic Icon/th><th>Squared Bold Icon</th><th>Squared Icon</th><th>Markdown </th></tr>")
         for line in f:
             if firstLetter.upper() != line[0].upper():
-                dosya.write("</table></details>")
-                dosya.close()
-                dosya = open(f"brands{line[0].upper()}.md", "w")
+                if line[0] == '/':
+                    dosya.write("</table> </details>")
+                    dosya.close()
+                    dosya = open(f"brandsSlash.md", "w")
+                else:
+                    dosya.write("</table></details>")
+                    dosya.close()
+                    dosya = open(f"brands{line[0].upper()}.md", "w")
                 firstLetter = line[0]
                 dosya.write(
                     f"<table><tr><th>Brand</th><th>Flat Icon</th><th>Plastic Icon/th><th>Squared Bold Icon</th><th>Squared Icon</th><th>Markdown </th></tr>")
@@ -29,6 +34,5 @@ if os.path.exists("allBrandInSimpleIcons.txt"):
                             )
             except:
                 pass
-dosya.write("</table>")
-
-dosya.close()
+    dosya.write("</table>")
+    dosya.close()
